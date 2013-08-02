@@ -9,3 +9,4 @@
 2. 加入EXT4 MVC架构
 3. 加入Seajs管理js组件
 4. 加入js测试（暂用nodejs自带测试类）
+5. 加入layout布局页
