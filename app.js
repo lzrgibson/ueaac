@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -34,6 +33,6 @@ app.get('/', routes.index);
 app.get('/us', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
-  console.log('message');	
+  //console.log('message');	
   console.log('Express server listening on port ' + app.get('port'));
 });
