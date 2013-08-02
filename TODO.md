@@ -6,5 +6,6 @@
 
 ## 2013-8-2
 1. Nodejs实现连接Mysql
-2. 接入EXT4 MVC架构
-3. 接入Seajs管理js组件
+2. 加入EXT4 MVC架构
+3. 加入Seajs管理js组件
+4. 加入js测试（暂用nodejs自带测试类）
