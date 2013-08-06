@@ -10,3 +10,6 @@
 3. 加入Seajs管理js组件
 4. 加入js测试（暂用nodejs自带测试类）
 5. 加入layout布局页	***(findish 2013-8-2)***
+
+## 2013-8-6
+1. 加入kendoui
