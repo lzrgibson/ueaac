@@ -12,4 +12,4 @@
 5. 加入layout布局页	***(findish 2013-8-2)***
 
 ## 2013-8-6
-1. 加入kendoui
+1. 加入kendoui	 ***(findish 2013-8-7)*** PS: 比较后，还是选EXT
