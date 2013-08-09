@@ -1,8 +1,8 @@
 Ext.define('Ueaac.view.Viewport', {
     extend: 'Ext.container.Viewport',
     layout: 'fit',
-
     requires: [
+        'Ueaac.view.Header',
         'Ueaac.view.Controls',
         'Ueaac.view.Navigation'
     ],
@@ -13,11 +13,9 @@ Ext.define('Ueaac.view.Viewport', {
                 dock: 'top',
                 xtype: 'toolbar',
                 height: 40,
+                baseCls: 'app-header',
                 items: [{
-                    xtype: 'component',
-                    html: 'New UEAAC'
-                }, {
-                    xtype: 'controls',
+                    xtype: 'header',
                     flex: 1
                 }]
             }],
