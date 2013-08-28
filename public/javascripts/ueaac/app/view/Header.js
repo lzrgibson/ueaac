@@ -5,10 +5,11 @@ Ext.define('Ueaac.view.Header', {
     baseCls: 'app-header-title',
     
     initComponent: function() {
+        /*
         Ext.applyIf(this, {
             html: 'New UEAAC'
         });
-                
+          */      
         this.callParent(arguments);
     }
 });

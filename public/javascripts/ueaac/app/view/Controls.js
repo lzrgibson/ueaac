@@ -7,15 +7,26 @@ Ext.define('Ueaac.view.Controls', {
         this.layout = {
             type: 'vbox',
             align: 'left',
+            alignRoundingMethod: 'floor',
             pack: 'center'
         };
 
         this.items = [{
             xtype: 'container',
             defaultType: 'button',
-            height: 40,
-            width: 300,
+            width: 400,
             items: [{
+               text: '角色'
+            },{
+               text: '用户'
+            },{
+               text: '资源'
+            }]
+            
+            
+            
+            /*
+            {
                 text: '创 建',
                 menu: [{
                     text: '组织架构',
@@ -32,7 +43,9 @@ Ext.define('Ueaac.view.Controls', {
                         Ext.Msg.alert('Status', '创建角色组.');
                     }
                 }]
-            }]
+            }]*/
+            
+            
         }];
 
         this.callParent();
